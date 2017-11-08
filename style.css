@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*--- jQuery style ---*/
+nav {background: rgba(255, 255, 255, 0.84);}
+nav {transition: .3s;}
+.is-fixed {position: fixed; top: 0; left: 0; z-index: 2; width: 100%;}
+.is-hide {transform: translateY(-100%);}
+/*--- jQuery style ---*/
+
+#navi {overflow: hidden; clear: both;}
+#navi_ul {list-style: none;}
+.navi_li {float: left; margin: 0 12px;}
+.is-fixed .navi_li {float: left; margin: 0 12px; width: 14%; text-align: center;}
+.navi_li-a {font-size: 18px; color:#9c2f4b;}
+.navi_li-a:hover {color: #e3853f;}
